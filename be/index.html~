@@ -1,0 +1,100 @@
+<html>
+	<head>
+	</head>
+	<body>
+	</body>
+</html>
+<title></title>
+<title></title>
+<body>
+	<h3>
+		Bioqu&iacute;mica Estrutural</h3>
+	<ul>
+		<li>
+			<a href="programa_bibliografia.pdf">Programa e Bibliografia</a></li>
+		<li>
+			<a href="pymol_tutorial.pdf">Tutorial do software PyMOL</a></li>
+		<li>
+			Acetatos das aulas:
+			<ul>
+				<li>
+					<a href="aulas/aula_1.pdf">aula 1</a></li>
+				<li>
+					<a href="aulas/aula_2.pdf">aula 2</a></li>
+				<li>
+					<a href="aulas/aula_3.pdf">aula 3</a></li>
+				<li>
+					<a href="aulas/aula_4.pdf">aula 4</a></li>
+				<li>
+					<a href="aulas/aula_5.pdf">aula 5</a></li>
+				<li>
+					<a href="aulas/aula_6.pdf">aula 6</a></li>
+				<li>
+					<a href="aulas/aula_7.pdf">aula 7</a></li>
+				<li>
+					<a href="aulas/aula_8.pdf">aula 8</a></li>
+				<li>
+					<a href="aulas/aula_9.pdf">aula 9</a></li>
+				<li>
+					<a href="aulas/aula_10.pdf">aula 10</a></li>
+				<li>
+					<a href="aulas/aula_11.pdf">aula 11</a></li>
+				<li>
+					<a href="aulas/aula_12.pdf">aula 12</a></li>
+			</ul>
+		</li>
+		<li>
+			Exemplo de Apresenta&ccedil;&atilde;o:
+			<ul>
+				<li>
+					<a href="papers/artigo_0.pdf">artigo 0</a></li>
+				<li>
+					<a href="papers/artigo_0.ppt">apresenta&ccedil;&atilde;o (ppt) do artigo 0</a></li>
+			</ul>
+		</li>
+		<li>
+			Apresenta&ccedil;&otilde;es de papers 2019-2020:
+			<ul>
+				<li>
+					Grupos e artigos:
+					<ul>
+						<li>
+							Grupo 1 - <a href="papers/2_Gsponer_2008_S_322_1365.pdf">Artigo 2</a></li>
+						<li>
+							Grupo 2 - <a href="papers/6_Nepmnyachiyi_2014_PNS_Global_view_of_the_protein_universe.pdf">Artigo 6</a></li>
+						<li>
+							Grupo 3 - <a href="papers/3_Honig_1991_S_268_1144.pdf">Artigo 3</a></li>
+						<li>
+							Grupo 4 - <a href="papers/5_Pucci_2017_COSB_42_177_thermal_adapation.pdf">Artigo 5</a></li>
+						<li>
+							Grupo 5 - <a href="papers/1_Edgcomb_2002_P_49_1.pdf">Artigo 1</a></li>
+						<li>
+							Grupo 6 - <a href="papers/4_Lesser_1990_P_8_6.pdf">Artigo 4</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Outros:
+			<ul>
+				<li>
+					<a href="bibliografia.pdf">Bibliografia recomendada</a></li>
+			</ul>
+		</li>
+	</ul>
+	<p>
+		&nbsp;</p>
+	<hr />
+	<p>
+		Paulo Martel<br />
+		Department of Biological Sciences and Engineering<br />
+		Centre for Molecular and Structural Biomedicine<br />
+		Faculty of Sciences and Technology, Bld. #8 Office 3.12<br />
+		University of Algarve<br />
+		8005-139 Faro<br />
+		PORTUGAL<br />
+		e-mail :&nbsp;<a href="mailto:pmartel@ualg.pt">pmartel@ualg.pt</a><br />
+		www:&nbsp;<a href="http://w3.ualg.pt/~pmartel">http://w3.ualg.pt/~pmartel</a></p>
+	<hr />
+</body>
