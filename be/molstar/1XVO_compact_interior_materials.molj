@@ -1,16 +1,16 @@
 {
-  "timestamp": 1707961074765,
+  "timestamp": 1707961448583,
   "version": "4.0.0",
-  "current": "c2Z51FSLzUReH6lTcsU-Mg",
+  "current": "5NfXwnunDFz0iYj-sq9IBA",
   "playback": {
     "isPlaying": false,
     "nextSnapshotDelayInMs": 1500
   },
   "entries": [
     {
-      "timestamp": 1707959111606,
+      "timestamp": 1707961448582,
       "snapshot": {
-        "id": "c2Z51FSLzUReH6lTcsU-Mg",
+        "id": "5NfXwnunDFz0iYj-sq9IBA",
         "data": {
           "tree": {
             "transforms": [
@@ -45,7 +45,11 @@
               {
                 "parent": "1i3fUK0WCVKlCkpcbDQNBA",
                 "transformer": "ms-plugin.trajectory-from-mmcif",
-                "params": {},
+                "params": {
+                  "loadAllBlocks": false,
+                  "blockHeader": "1XVO",
+                  "blockIndex": 0
+                },
                 "ref": "jqSgT33avtwjvWVSEsI97Q",
                 "version": "UcvZyMDjwAioUnlwnzbKsw"
               },
@@ -76,6 +80,9 @@
                     "max_index": {
                       "value": 0
                     },
+                    "pdbe_structure_quality_report": {
+                      "serverUrl": "https://www.ebi.ac.uk/pdbe/api/validation/residuewise_outlier_summary/entry/"
+                    },
                     "rcsb_validation_report": {
                       "source": {
                         "name": "server",
@@ -83,6 +90,12 @@
                           "baseUrl": "https://files.rcsb.org/pub/pdb/validation_reports"
                         }
                       }
+                    },
+                    "mvs-is-mvs-model": {
+                      "isMvs": false
+                    },
+                    "mvs-annotations": {
+                      "annotations": []
                     }
                   }
                 },
@@ -192,7 +205,7 @@
                       "assignCharge": "auto",
                       "assignH": "auto"
                     },
-                    "rcsb_struct_symmetry": {
+                    "molstar_struct_symmetry": {
                       "serverType": "rcsb",
                       "serverUrl": "https://data.rcsb.org/graphql",
                       "symmetryIndex": 0
@@ -205,6 +218,12 @@
                       "asaCutoff": 40,
                       "adjust": 14,
                       "tmdetDefinition": false
+                    },
+                    "mvs-custom-tooltips": {
+                      "tooltips": []
+                    },
+                    "mvs-annotation-tooltips": {
+                      "tooltips": []
                     }
                   }
                 },
@@ -247,6 +266,13 @@
                         "objects": []
                       },
                       "instanceGranularity": false,
+                      "lod": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "cellSize": 200,
+                      "batchSize": 2000,
                       "doubleSided": false,
                       "flipSided": false,
                       "flatShaded": false,
@@ -269,6 +295,15 @@
                       "detail": 0,
                       "linearSegments": 8,
                       "radialSegments": 16,
+                      "thicknessFactor": 1,
+                      "sizeAspectRatio": 1,
+                      "solidInterior": true,
+                      "colorMode": "default",
+                      "tryUseImpostor": true,
+                      "clipPrimitive": false,
+                      "approximate": false,
+                      "alphaThickness": 0,
+                      "lodLevels": [],
                       "visuals": [
                         "polymer-trace"
                       ]
@@ -350,6 +385,13 @@
                         "objects": []
                       },
                       "instanceGranularity": false,
+                      "lod": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "cellSize": 200,
+                      "batchSize": 2000,
                       "doubleSided": false,
                       "flipSided": false,
                       "flatShaded": false,
@@ -367,6 +409,7 @@
                       "clipPrimitive": false,
                       "approximate": false,
                       "alphaThickness": 0,
+                      "lodLevels": [],
                       "detail": 0,
                       "ignoreHydrogens": false,
                       "ignoreHydrogensVariant": "all",
@@ -374,6 +417,7 @@
                       "tryUseImpostor": true,
                       "stride": 1,
                       "sizeAspectRatio": 0.6666666666666666,
+                      "colorMode": "default",
                       "linkScale": 0.45,
                       "linkSpacing": 1,
                       "linkCap": false,
@@ -463,6 +507,9 @@
                     }
                   }
                 },
+                "state": {
+                  "isHidden": true
+                },
                 "ref": "niXYQXSctbosGcG4hyekig",
                 "version": "xUrDtNDsp3NrYqW7sI7xMA"
               },
@@ -476,8 +523,8 @@
                       "alpha": 1,
                       "quality": "auto",
                       "material": {
-                        "metalness": 0,
-                        "roughness": 1,
+                        "metalness": 0.18,
+                        "roughness": 0.13,
                         "bumpiness": 0
                       },
                       "clip": {
@@ -485,6 +532,13 @@
                         "objects": []
                       },
                       "instanceGranularity": false,
+                      "lod": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "cellSize": 200,
+                      "batchSize": 2000,
                       "doubleSided": false,
                       "flipSided": false,
                       "flatShaded": false,
@@ -503,6 +557,7 @@
                       "clipPrimitive": false,
                       "approximate": false,
                       "alphaThickness": 0,
+                      "lodLevels": [],
                       "detail": 0,
                       "ignoreHydrogens": false,
                       "ignoreHydrogensVariant": "all",
@@ -574,7 +629,7 @@
                   }
                 },
                 "ref": "r1DN7cMEf_kzWx252plp0g",
-                "version": "fkq2-vKLecRuMfR9zxDD4g"
+                "version": "9DOXxuQZ2daGkDzi808UEw"
               },
               {
                 "parent": "hwxxzIg1YDb0maKViU22GA",
@@ -615,6 +670,13 @@
                         "objects": []
                       },
                       "instanceGranularity": false,
+                      "lod": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "cellSize": 200,
+                      "batchSize": 2000,
                       "doubleSided": false,
                       "flipSided": false,
                       "flatShaded": false,
@@ -632,6 +694,7 @@
                       "clipPrimitive": false,
                       "approximate": false,
                       "alphaThickness": 0,
+                      "lodLevels": [],
                       "detail": 0,
                       "ignoreHydrogens": false,
                       "ignoreHydrogensVariant": "all",
@@ -639,6 +702,7 @@
                       "tryUseImpostor": true,
                       "stride": 1,
                       "sizeAspectRatio": 0.6666666666666666,
+                      "colorMode": "default",
                       "linkScale": 0.45,
                       "linkSpacing": 1,
                       "linkCap": false,
@@ -736,6 +800,13 @@
                         "objects": []
                       },
                       "instanceGranularity": false,
+                      "lod": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "cellSize": 200,
+                      "batchSize": 2000,
                       "doubleSided": false,
                       "flipSided": false,
                       "flatShaded": false,
@@ -753,6 +824,7 @@
                       "clipPrimitive": false,
                       "approximate": false,
                       "alphaThickness": 0,
+                      "lodLevels": [],
                       "detail": 0,
                       "ignoreHydrogens": false,
                       "ignoreHydrogensVariant": "all",
@@ -760,6 +832,7 @@
                       "tryUseImpostor": true,
                       "stride": 1,
                       "sizeAspectRatio": 0.6666666666666666,
+                      "colorMode": "default",
                       "linkScale": 0.45,
                       "linkSpacing": 1,
                       "linkCap": false,
@@ -834,6 +907,13 @@
                     "objects": []
                   },
                   "instanceGranularity": false,
+                  "lod": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "cellSize": 200,
+                  "batchSize": 2000,
                   "doubleSided": false,
                   "flipSided": false,
                   "flatShaded": false,
@@ -852,6 +932,19 @@
                 },
                 "ref": "cZRkLS4kQmEmQMTJpxorfg",
                 "version": "qKBwTbYNeYGlDQkxNbt9tQ"
+              },
+              {
+                "parent": "-=root=-",
+                "transformer": "ms-plugin.create-group",
+                "params": {
+                  "label": "Measurements",
+                  "description": ""
+                },
+                "tags": [
+                  "measurement-group"
+                ],
+                "ref": "Xkp_grtMIaL83nqOSg-y9w",
+                "version": "aw98nxJttjeDmCqT36zVMw"
               }
             ]
           }
@@ -886,21 +979,21 @@
             "mode": "perspective",
             "fov": 0.7853981633974483,
             "position": [
-              -46.870401534036176,
-              -12.410181294601742,
-              -0.3403554959519024
+              -28.35044703294075,
+              -39.34746096381983,
+              56.68396246487622
             ],
             "up": [
-              0.08512838342212876,
-              0.008718621798677077,
-              0.9963318443018935
+              -0.39945144783879705,
+              0.8377257296950777,
+              0.3723629178981415
             ],
             "target": [
-              0.6772248737692254,
-              -0.05248562170621794,
-              -4.511048895240389
+              0.15900549389982857,
+              -0.43659477820855214,
+              -0.27254598441809025
             ],
-            "radius": 4.501603014510838,
+            "radius": 28.56287266587349,
             "radiusMax": 50.65986214726393,
             "fog": 15,
             "clipFar": true,
@@ -909,6 +1002,13 @@
           },
           "transitionStyle": "animate",
           "transitionDurationInMs": 250
+        },
+        "canvas3dContext": {
+          "props": {
+            "pixelScale": 1,
+            "pickScale": 0.25,
+            "transparency": "wboit"
+          }
         },
         "canvas3d": {
           "props": {
@@ -959,13 +1059,14 @@
             },
             "cameraClipping": {
               "far": true,
-              "radius": 91,
+              "radius": 44,
               "minNear": 5
             },
             "cameraResetDurationMs": 250,
             "sceneRadiusFactor": 1,
             "transparentBackground": false,
             "dpoitIterations": 2,
+            "pickPadding": 3,
             "viewport": {
               "name": "canvas",
               "params": {}
@@ -987,8 +1088,13 @@
                 }
               },
               "shadow": {
-                "name": "off",
-                "params": {}
+                "name": "on",
+                "params": {
+                  "steps": 1,
+                  "bias": 0.54,
+                  "maxDistance": 3,
+                  "tolerance": 1
+                }
               },
               "outline": {
                 "name": "off",
@@ -1027,8 +1133,13 @@
               "sampleLevel": 2,
               "reduceFlicker": true
             },
+            "hiZ": {
+              "enabled": false,
+              "maxFrameLag": 10,
+              "minLevel": 3
+            },
             "renderer": {
-              "backgroundColor": 16777215,
+              "backgroundColor": 10066329,
               "pickingAlphaThreshold": 0.5,
               "interiorDarkening": 0.5,
               "interiorColorFlag": true,
@@ -1069,7 +1180,7 @@
               "staticMoving": true,
               "dynamicDampingFactor": 0.2,
               "minDistance": 5,
-              "maxDistance": 291.64137058961944,
+              "maxDistance": 285.6287266587349,
               "gestureScaleFactor": 1,
               "maxWheelDelta": 0.02,
               "bindings": {
